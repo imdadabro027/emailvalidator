@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>aiValidate</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <!-- Logo -->
+      <h1 id="logo">aiValidate</h1>
+    </header>
+    <!-- Header Ends -->
+    <!-- Main -->
+    <main>
+      <!-- Form Starts -->
+      <h2>Enter your email to validate</h2>
+      <form>
+        <input name="email" type="text" placeholder="Enter your email" />
+        <button type="submit">Validate</button>
+      </form>
+      <!-- Form ends -->
+
+      <!-- Results Starts -->
+      <div id="results">
+        <h2>Results</h2>
+        <!-- Loader Starts -->
+        <div class="loader">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-4SEOooVLBIH22yoVZSK58L2p4HI817_vNo0JzSab9A&s"
+            alt="Loader"
+          />
+        </div>
+        <!-- Loader Ends -->
+
+        <!-- Result Starts -->
+        <pre id="results-tag">
+            <code></code>
+        </pre>
+        <!-- Result Ends -->
+
+        <!-- Errors starts -->
+        <div id="errors"></div>
+        <!-- Errors ends -->
+      </div>
+      <!-- Results Ends -->
+    </main>
+    <!-- Main Ends -->
+    <!-- Footer Starts -->
+    <footer>
+      <h3>
+        Copyright &copy; | Imdad Abro | All Rights reserved
+      </h3>
+    </footer>
+    <!-- Footer Ends -->
+
+    <!-- Scripts Start -->
+    <script src="app.js"></script>
+    <!-- Scripts Ends -->
+  </body>
+</html>
